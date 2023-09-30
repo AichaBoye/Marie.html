@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Lato";
+    src: url("./fonts/Lato-Italic.woff");
+    src: url("./fonts/Lato-BoldItalic.ttf") format("truetype");
+    src: url("./fonts/Lato-Italic.ttf") format("opentype");
+    font-family: "Raleway";
+    src: url("./fonts/Raleway-Italic-VariableFont_wght_1_.woff");
+    src: url("./fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("./fonts/Raleway-VariableFont_wght.ttf") format("opentype");
+}
+    
+body{
+
+  width: 1160px;
+  margin: 20px auto;
+  border-right: groove;
+}
+header{
+    background: #782221;
+    text-align: center
+}
+
+.p3{
+    display: grid;
+  background-color: #2c1d27;
+  height: 84px;
+}
+.p4{
+    display: grid;
+    justify-content: start;
+    background-color: #2c1d27;
+    height: 145px;
+}
+.p5{
+    display: grid;
+    justify-content: center;
+    margin-block-start: -125px;
+}
+.p6{
+    justify-content: end;
+    margin-block-start: -130px;
+    margin-inline-end: 30px;
+    display: grid;
+    
+}
+.p7{
+    color: white;
+    margin: 20px;
+}
+.p8{
+    margin-top: -15px;
+}
+p{
+    margin: 0px;
+    font-family: "Raleway", serif;
+    color: white;
+}
+
+img{
+    width: 80px;
+  border-radius: 50px;
+  height: 76px;
+  box-shadow: 0px 1px 10px #bdc2a4;
+}
+
+.left{
+    
+  float: left;
+  background-color: #782221;
+  margin-right: 40px;
+  margin-top: 0px;
+  }
+  
+.right{
+    display: grid;
+  margin-top: 60px;
+  background-color: white;
+  padding-left: 50px;
+}
+
+h2{
+    background-color: #dbc2a4;
+  block-size: 50px;
+  color: black;
+  margin-right: 30px;
+  font-family: "Lato", serif;
+}
+
+.main{
+        background-color: #782221;
+}
+
+html{
+    border: groove;
+}
+
+.cv{
+    margin-top: -19px;
+}
+
+footer{
+    background-color: #782221;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenu{
+    display: flex;
+  margin-top: -20px;
+  margin-left: -160px;
+  padding-right: 230px;
+  width: 80px;
+  border-radius: 50px;
+  height: 76px;
+}
+.p4:hover{
+    cursor:zoom-in;
+}
+.p5:hover{
+cursor: pointer;
+}
+.p6:hover{
+cursor: help;
+}
+img:hover{
+    cursor: zoom-in;
+}
+h3:hover{
+    cursor: progress;
+}
