@@ -109,7 +109,7 @@ footer{
     display: flex;
   margin-top: -20px;
   margin-left: -160px;
-  padding-right: 230px;
+  padding-right: 85px;
   width: 80px;
   border-radius: 50px;
   height: 76px;
@@ -128,4 +128,7 @@ img:hover{
 }
 h3:hover{
     cursor: progress;
+}
+.datetime{
+    margin-top: 90px;
 }
